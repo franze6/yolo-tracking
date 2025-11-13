@@ -45,10 +45,6 @@ def load_video_frames(video_path):
 def main():
     """Главная функция приложения."""
     start_all = datetime.datetime.now()
-
-    print(cv2.cuda.getCudaEnabledDeviceCount())
-
-    exit()
     
     # Загружаем кадры из видео
     frames, video_cap = load_video_frames(config.INPUT_VIDEO)
