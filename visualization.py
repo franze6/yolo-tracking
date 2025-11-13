@@ -143,8 +143,8 @@ def draw_counters(frame, counter_A, counter_B):
     counter_B : int
         Счетчик для линии B
     """
-    cv2.putText(frame, "Green:", (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-    cv2.putText(frame, "Blue:", (50, 130), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
-    cv2.putText(frame, f"{counter_A}", (170, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-    cv2.putText(frame, f"{counter_B}", (170, 130), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
+    cv2.putText(frame, "Line A:", (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+    cv2.putText(frame, "Line B:", (50, 130), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
+    cv2.putText(frame, f"{counter_A}", (180, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+    cv2.putText(frame, f"{counter_B}", (180, 130), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 

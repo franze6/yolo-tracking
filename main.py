@@ -84,7 +84,7 @@ def main():
         output_width, output_height = frame_width, frame_height
     
     # Создаем writer для выходного видео с учетом возможного изменения размера
-    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     writer = cv2.VideoWriter(config.OUTPUT_VIDEO, fourcc, fps, (output_width, output_height))
     
     # Обработка YOLO батчами

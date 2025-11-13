@@ -8,7 +8,7 @@ def create_video_writer(video_cap, output_filename):
     fps = int(video_cap.get(cv2.CAP_PROP_FPS))
 
     # initialize the FourCC and a video writer object
-    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     writer = cv2.VideoWriter(output_filename, fourcc, fps,
                              (frame_width, frame_height))
 

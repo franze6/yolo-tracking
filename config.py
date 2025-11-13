@@ -16,7 +16,7 @@ CLASSES_PATH = "config/coco.names"
 PREPROCESS_ENABLED = True
 PREPROCESS_CLAHE = True
 PREPROCESS_DENOISING = False
-PREPROCESS_SHARPENING = True  # Может замедлить обработку, включать по необходимости
+PREPROCESS_SHARPENING = True
 PREPROCESS_BRIGHTNESS_NORMALIZATION = True
 
 # Параметры CLAHE
